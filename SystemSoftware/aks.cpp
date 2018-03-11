@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cstdlib>
+
+int main()
+{
+	system("clear");
+	
+//	system("javac barchartexample.java");
+	system("java barchartexample ");
+	system("exit");
+}
+

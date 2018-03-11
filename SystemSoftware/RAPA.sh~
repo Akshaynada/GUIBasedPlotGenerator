@@ -1,0 +1,16 @@
+#!/bin/sh
+
+rm Attr.txt Output.txt
+./RAPA
+FILE1="Attr.txt"
+FILE2="Output.txt"
+if [ -f $FILE1 ] && [ -f $FILE2 ];
+then
+echo "File $FILE exists"
+./aks.out
+else
+echo "File $FILE does not exists"
+fi 
+#./aks.out
+
+exit 0

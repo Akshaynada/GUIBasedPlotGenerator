@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=RAPA Graph Editor
+GenericName=Graph Editor
+Comment=System Software Project
+Exec=/home/asif/SystemSoftware/RAPA.sh %F 
+Icon=/home/asif/SystemSoftware/icon.jpeg
+Terminal=false
+Type=Application
+Categories=Utility;Application;GTK;
+MimeType=image/x-foo;image/jpeg;aaplication/ogg;
